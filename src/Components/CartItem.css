@@ -1,0 +1,13 @@
+.image{
+    max-height:200px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+}
+
+.add{
+    display: -ms-inline-grid;
+    columns: 2;
+    grid-template-columns: auto auto;
+    align-items: end;
+}
