@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdDeleteOutline } from 'react-icons/md'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { remove } from '../redux/slices/CartSlice'
 import { toast } from 'react-toastify'
 import './CartItem.css'
