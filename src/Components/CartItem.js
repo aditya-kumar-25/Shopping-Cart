@@ -7,8 +7,6 @@ import './CartItem.css'
 
 function CartItem({obj}) {
 
-  const cart = useSelector((state) => state.cart)
-
   const dispatch = useDispatch()
 
   function deleteItem(event){

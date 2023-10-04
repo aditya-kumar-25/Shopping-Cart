@@ -2,7 +2,7 @@ import React from "react";
 import "./LoadItem.css";
 import {add , remove } from '../redux/slices/CartSlice'
 import { useDispatch, useSelector } from "react-redux";
-import { ToastContainer , toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function LoadItem({ obj }) {
@@ -38,7 +38,7 @@ function LoadItem({ obj }) {
         </p>
       </div>
 
-      <img src={obj.image} className="mx-[10px] max-h-[200px] px-[50px]"></img>
+      <img src={obj.image} alt='loading..' className="mx-[10px] max-h-[200px] px-[50px]"></img>
 
       <div className="flex justify-around items-center w-full">
         <div className="text-[#51be36] font-[700]">${obj.price}</div>

@@ -1,12 +1,12 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import Spinner from './Spinner'
 import Cart from './Cart'
 import Summary from './Summary'
 import { Link } from 'react-router-dom'
 
 function CartHome() {
 
+    
     const cart = useSelector((state) => state.cart)
 
     console.log('hello hi' , cart);
